@@ -3,22 +3,23 @@
 
 /********** Javascript Types ***********/
 
-let a;                  // undefined
-let b = true;           // boolean
-let c = 1;              // number
-let d = "hello";        // string
-let e = 100n;           // big int (starting ES2020)
-let f = Symbol("Sym");  // symbol  (starting ES2015)
-let g = function () {   // function
-  return null;
+let a; // undefined
+let b = true; // boolean
+let c = 1; // number
+let d = 'hello'; // string
+let e = 100n; // big int (starting ES2020)
+let f = Symbol('Sym'); // symbol  (starting ES2015)
+let g = function () {
+    // function
+    return null;
 };
-let h = null;           // null ( special primitive )
-let i = {};             // Object Literal
-let j = [];             // array
+let h = null; // null ( special primitive )
+let i = {}; // Object Literal
+let j = []; // array
 
 class Product {
-  // class
-  //...
+    // class
+    //...
 }
 let k = new Product();
 
